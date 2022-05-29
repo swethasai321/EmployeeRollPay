@@ -26,7 +26,7 @@ public class EmployeeController {
         return response;
     }
 
-    @GetMapping("/Lucky")
+    @GetMapping("/swetha")
     public List<Employee> sayHelloAll() {
         List<Employee> response = employeeService.sayHelloAll();
         return response;
